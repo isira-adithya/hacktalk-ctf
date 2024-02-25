@@ -8,8 +8,6 @@ services:
       - "8080:80"
     depends_on:
       - mysql
-    volumes:
-      - .:/var/www/html
 
   mysql:
     image: mysql:5.7
